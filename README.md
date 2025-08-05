@@ -1,6 +1,16 @@
+# MarketLucky
+
+This repository contains both a [Next.js](https://nextjs.org) web application and a Python-based Kalyan Matka prediction system for educational purposes.
+
+⚠️ **IMPORTANT DISCLAIMER**: The matka prediction system is for educational and research purposes only. Gambling activities may be illegal in your jurisdiction and carry significant risks.
+
+## Project Components
+
+### 1. Next.js Web Application
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+#### Getting Started with Web App
 
 First, run the development server:
 
@@ -20,7 +30,57 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+### 2. Kalyan Matka Prediction System
+
+A Python-based educational system that demonstrates statistical analysis and machine learning techniques applied to pattern recognition.
+
+#### Features
+- Historical data analysis and pattern recognition
+- Machine learning-based predictions using RandomForest
+- Hot/Cold number analysis and frequency tracking
+- Automated daily predictions with scheduling
+- Telegram bot integration for notifications
+- Data export to CSV and JSON formats
+
+#### Quick Start with Matka Predictor
+
+1. **Install Python dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Run the basic predictor**:
+   ```bash
+   python matka_predictor.py
+   # Or double-click: run_predictor.bat (Windows)
+   ```
+
+3. **Run data analysis utilities**:
+   ```bash
+   python data_utils.py
+   # Or double-click: run_data_utils.bat (Windows)
+   ```
+
+4. **Run the advanced bot with scheduling**:
+   ```bash
+   python advanced_bot.py
+   # Or double-click: run_advanced_bot.bat (Windows)
+   ```
+
+#### Python Dependencies
+- pandas, numpy, scikit-learn
+- requests, beautifulsoup4
+- schedule, python-telegram-bot
+
+See `requirements.txt` for complete list and `MATKA_README.md` for detailed documentation.
+
+#### Output Files
+The system generates various output files:
+- `kalyan_prediction_YYYYMMDD.txt` - Daily prediction reports
+- `analysis_report_YYYYMMDD.json` - Statistical analysis
+- `matka_data_YYYYMMDD.csv` - Historical data exports
+
+## Web Application Documentation
 
 To learn more about Next.js, take a look at the following resources:
 

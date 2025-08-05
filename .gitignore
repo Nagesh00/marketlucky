@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# temporary output files (keep local only)
+debug_*.txt
+*_output.txt
+*_results.txt
+output.txt

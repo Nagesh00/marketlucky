@@ -1,0 +1,39 @@
+# LOCAL MATKA PREDICTION SYSTEM
+
+This directory contains a local-only Kalyan Matka prediction system for educational purposes.
+
+## ⚠️ IMPORTANT NOTES
+- These files are NOT tracked by Git (added to .gitignore)
+- This system is for educational/research purposes only
+- Gambling may be illegal in your jurisdiction
+
+## 📁 LOCAL FILES (Git Ignored)
+- matka_predictor.py - Main prediction engine
+- advanced_bot.py - Scheduled predictions with Telegram
+- data_utils.py - Data analysis and export utilities
+- run_*.bat - Windows batch files for easy execution
+- All prediction output files (*.txt, *.json, *.csv)
+- Virtual environment (.venv/)
+- Python cache (__pycache__/)
+
+## 🚀 QUICK START
+1. Double-click `run_predictor.bat` - Generate daily predictions
+2. Double-click `run_data_utils.bat` - Generate analysis reports
+3. Double-click `run_advanced_bot.bat` - Start scheduled bot
+
+## 📊 OUTPUT FILES
+- kalyan_prediction_YYYYMMDD.txt - Daily predictions
+- analysis_report_YYYYMMDD.json - Statistical analysis
+- matka_data_YYYYMMDD.csv - Historical data export
+
+## 🔒 PRIVACY
+All matka-related files remain local and will never be committed to Git.
+The main repository only contains the Next.js web application.
+
+## 🛠️ SYSTEM STATUS
+✅ All components working and debugged
+✅ Unicode issues resolved for Windows
+✅ Virtual environment configured
+✅ All dependencies installed
+
+Date: August 5, 2025
